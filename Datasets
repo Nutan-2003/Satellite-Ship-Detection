@@ -1,0 +1,4 @@
+Datasets :
+The model is trained on a dataset of satellite images labeled for ship presence. Images are preprocessed to 80x80 pixels and split into training and test sets. Data augmentation (rotation, shift, shear, zoom, flip) is used to increase dataset diversity.
+
+Datasets Link = "https://www.kaggle.com/datasets/rhammell/ships-in-satellite-imagery"
