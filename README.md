@@ -50,7 +50,7 @@ python train.py \
 ## Detect ships in new scenes
 python detect.py --input data/scenes/sfbay_1.png --output results/
 
-## 📊 Results
+## 📊 Model Performance Comparison
 
 Model      	Accuracy	   Precision	Recall
 ResNet18  	96.2%	       94.1%	    97.8%
