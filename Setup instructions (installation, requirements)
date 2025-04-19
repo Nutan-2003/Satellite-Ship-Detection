@@ -1,1 +1,11 @@
+## Installation
 
+1. Clone the repository:
+git clone https://github.com/Nutan-2003/Satellite-Ship-Detection.git
+cd Satellite-Ship-Detection
+
+2. Install dependencies:
+pip install -r requirements.txt
+
+*Main requirements: tensorflow, numpy, matplotlib, scikit-learn*
+3. (Optional) Download and prepare the dataset as described above.
