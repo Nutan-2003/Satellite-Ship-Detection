@@ -1,1 +1,10 @@
+## Results
 
+- **Best validation accuracy:** ~95.6%
+- **Test accuracy:** ~95.1%
+- The model demonstrates strong performance on unseen satellite images, with minimal overfitting due to early stopping and data augmentation.
+
+Sample output:
+Test Accuracy: 95.14%
+
+undefined
