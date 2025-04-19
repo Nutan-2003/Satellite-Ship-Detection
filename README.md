@@ -52,10 +52,10 @@ python detect.py --input data/scenes/sfbay_1.png --output results/
 
 ## 📊 Model Performance Comparison
 
-Model      	Accuracy	   Precision	Recall
-ResNet18  	96.2%	       94.1%	    97.8%
-Custom CNN	92.4%	       89.5%	    93.2%
-
+| Model      | Accuracy | Precision | Recall |
+|------------|----------|-----------|--------|
+| ResNet18   | 96.2%    | 94.1%     | 97.8%  |
+| Custom CNN | 92.4%    | 89.5%     | 93.2%  |
 
 ## 📂 Repository Structure
 
