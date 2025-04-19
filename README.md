@@ -30,34 +30,34 @@ cd ships-in-satellite
 pip install -r requirements.txt
 (See requirements.txt for package versions)
 
-🚀 Usage
+## 🚀 Usage
 Data Preprocessing
 Convert shipsnet.json to images + CSV:
 
 python scripts/preprocess_data.py
 
-Outputs:
+## Outputs:
 data/images/ (individual ship patches)
 data/labels.csv (metadata + coordinates)
 
-Train the model
+## Train the model
 
 python train.py \
   --epochs 50 \
   --batch_size 32 \
   --model resnet18
   
-Detect ships in new scenes
+## Detect ships in new scenes
 python detect.py --input data/scenes/sfbay_1.png --output results/
 
-📊 Results
+## 📊 Results
 
 Model      	Accuracy	   Precision	Recall
 ResNet18  	96.2%	       94.1%	    97.8%
 Custom CNN	92.4%	       89.5%	    93.2%
-Confusion Matrix
 
-📂 Repository Structure
+
+## 📂 Repository Structure
 
 .
 ├── data/                   # Dataset (raw and processed)
@@ -69,13 +69,14 @@ Confusion Matrix
 ├── train.py                # Training script
 ├── detect.py               # Inference script
 └── requirements.txt        # Python dependencies
-🤝 Contributing
+
+## 🤝 Contributing
 Fork the project
 
 Create a branch (git checkout -b feature/improve-model)
 
 Submit a Pull Request
 
-📜 License
+## 📜 License
 CC-BY-SA-4.0 (inherited from Kaggle dataset).
 For commercial use, check Kaggle's terms.
