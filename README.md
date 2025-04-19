@@ -26,7 +26,7 @@ A machine learning project to detect ships in satellite imagery using convolutio
 git clone https://github.com/yourusername/ships-in-satellite.git
 cd ships-in-satellite
 
-2. Install dependencies
+### 2. Install dependencies
 pip install -r requirements.txt
 (See requirements.txt for package versions)
 
@@ -58,6 +58,7 @@ Custom CNN	92.4%	       89.5%	    93.2%
 Confusion Matrix
 
 📂 Repository Structure
+
 .
 ├── data/                   # Dataset (raw and processed)
 ├── notebooks/              # Jupyter notebooks for EDA
@@ -68,7 +69,6 @@ Confusion Matrix
 ├── train.py                # Training script
 ├── detect.py               # Inference script
 └── requirements.txt        # Python dependencies
-
 🤝 Contributing
 Fork the project
 
