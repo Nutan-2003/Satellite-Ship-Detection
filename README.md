@@ -60,15 +60,16 @@ python detect.py --input data/scenes/sfbay_1.png --output results/
 ## 📂 Repository Structure
 
 .
-├── data/                   # Dataset (raw and processed)
-├── notebooks/              # Jupyter notebooks for EDA
-├── scripts/                # Utility scripts
-│   ├── preprocess_data.py  # JSON → images converter
-│   └── visualize.py        # Geo-plotting tools
-├── models/                 # Saved model weights
-├── train.py                # Training script
-├── detect.py               # Inference script
-└── requirements.txt        # Python dependencies
+├── data/ # Dataset (raw and processed)
+├── notebooks/ # Jupyter notebooks for EDA
+├── scripts/ # Utility scripts
+│ ├── preprocess_data.py # JSON → images converter
+│ └── visualize.py # Geo-plotting tools
+├── models/ # Saved model weights
+├── train.py # Training script
+├── detect.py # Inference script
+└── requirements.txt # Python dependencies
+
 
 ## 🤝 Contributing
 Fork the project
