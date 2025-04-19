@@ -1,1 +1,12 @@
+## Model Architecture
+
+The model is a Sequential CNN with the following layers:
+- Conv2D (32 filters, 3x3, ReLU) + MaxPooling2D
+- Conv2D (64 filters, 3x3, ReLU) + MaxPooling2D
+- Conv2D (128 filters, 3x3, ReLU) + MaxPooling2D
+- Flatten
+- Dense (128, ReLU) + Dropout (0.5)
+- Dense (4 classes, softmax)
+
+Compiled with Adam optimizer and sparse categorical cross-entropy loss.
 
